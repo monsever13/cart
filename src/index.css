@@ -30,9 +30,10 @@ textarea {
 }
 a {
   text-decoration: none;
+  color:red;
 }
 a:hover {
-  color: #ff8000;
+  color:#00FFFF;
 }
 header {
   grid-area: header;
@@ -121,7 +122,7 @@ footer {
   cursor: pointer;
 }
 .button:hover {
-  border: 0.1rem #808080 solid;
+  border: 0.1rem red solid;
 }
 .button.primary {
   background-color: #00FFFF;
