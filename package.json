@@ -1,5 +1,5 @@
 {
-  "name": "react-shopping-cart",
+  "name": "cart",
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
@@ -24,13 +24,11 @@
   },
   "scripts": {
     "server": "nodemon server.js",
-    "start": "index.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
-  
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -50,6 +48,4 @@
     "node": "12.4.0",
     "npm": "6.9.0"
   }
-  
-  
 }
