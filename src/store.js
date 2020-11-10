@@ -11,7 +11,6 @@ const store = createStore(
     products: productsReducer,
     cart: cartReducer,
     order: orderReducer,
-
   }),
   initialState,
   composeEnhancer(applyMiddleware(thunk))
