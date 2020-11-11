@@ -1,5 +1,5 @@
 {
-  "name": "cart",
+  "name": "react-shopping-cart",
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
@@ -20,18 +20,19 @@
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "serve": "^11.3.2",
     "shortid": "^2.2.15"
   },
   "scripts": {
-    "dev": "react-scripts start",
     "server": "nodemon server.js",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-    },
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,7 +46,7 @@
     ]
   },
   "engines": {
-    "node": "12.19.0",
-    "npm": "6.14.8"
+    "node": "12.4.0",
+    "npm": "6.9.0"
   }
 }
